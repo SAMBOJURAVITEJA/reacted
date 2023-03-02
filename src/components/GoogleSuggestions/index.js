@@ -36,7 +36,7 @@ class GoogleSuggestions extends Component {
                 alt="search icon"
                 src="https://assets.ccbp.in/frontend/react-js/google-search-icon.png"
               />
-              <input  onClick={this.change} placeholder="search engine" type="search" />
+              <input  onChange={this.change} placeholder="search engine" type="search" />
             </li>
             {suggestionsList1.map(a1 => (
               <SuggestionItem a1={a1} />
