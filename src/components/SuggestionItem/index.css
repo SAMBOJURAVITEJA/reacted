@@ -1,0 +1,9 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.p {
+  margin-top: 10px;
+}
